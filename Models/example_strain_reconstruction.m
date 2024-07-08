@@ -7,7 +7,7 @@ strain_list=importdata('strain_list.mat');
 %this binary vector.
 
 %suppose you are interested in strain 30VD-1, linked to identifier
-%GCF_004366695_1:
+%GCF_004366695_1 in supplementary file S1:
 idx=find(strcmp(strain_list,'GCF_004366695_1'));
 rxn_presence=rxn_strain_matrix(:,idx);
 absent=rxn_presence==0;
