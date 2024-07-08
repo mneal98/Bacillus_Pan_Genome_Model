@@ -1,9 +1,0 @@
-pan_model=importdata('pan_model.mat');
-rxn_strain_matrix=importdata('rxn_strain_matrix.mat');
-strain_list=importdata('strain_list.mat');
-
-%to reconstruct a strain specific model, identify its column of the rxn to
-%strain association matrix, then remove the rxns associated with zeros in
-%this binary vector.
-
-
